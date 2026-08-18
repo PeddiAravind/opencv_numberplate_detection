@@ -7,7 +7,7 @@ class VehicleDetector:
 
         self.model = YOLO(model_path)
 
-        # COCO vehicle classes
+        # COCO vehicle classe
         self.vehicle_classes = [2, 3, 5, 7]
 
     def detect(self, frame):
