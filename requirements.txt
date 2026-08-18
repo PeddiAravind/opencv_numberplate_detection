@@ -1,3 +1,10 @@
+
+# installation process 
+
+# git clone https://github.com/PeddiAravind/opencv_numberplate_detection.git
+# cd opencv_numberplate_detection
+# pip install -r requirements.txt
+
 # Core computer vision and ML dependencies
 ultralytics>=8.0.0
 opencv-python>=4.8.0
@@ -23,3 +30,5 @@ torchvision>=0.15.0
 
 # Optional but commonly useful for Windows compatibility
 # pywin32
+
+
