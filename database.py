@@ -9,7 +9,7 @@ def search_plate(plate):
 
     plate = plate.replace(" ", "").upper()
 
-    # Exact Match
+    # Exact Matches
     result = df[df["plate_number"] == plate]
 
     if not result.empty:
