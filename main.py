@@ -12,7 +12,7 @@ import easyocr
 import cv2
 import time
 
-# Load models
+# Load model
 vehicle_model = YOLO("yolov8n.pt")
 plate_model = YOLO("models/license_plate_detector.pt")
 saved_plates = set()
