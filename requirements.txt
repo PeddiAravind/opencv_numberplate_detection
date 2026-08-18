@@ -1,0 +1,25 @@
+# Core computer vision and ML dependencies
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# OCR and plate matching
+easyocr>=1.7.0
+rapidfuzz>=3.0.0
+
+# Audio and utilities
+playsound>=1.2.2
+
+# SORT tracker dependencies
+filterpy==1.4.5
+scikit-image==0.17.2
+lap==0.4.0
+
+# PyTorch is required by YOLO and EasyOCR
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Optional but commonly useful for Windows compatibility
+# pywin32
